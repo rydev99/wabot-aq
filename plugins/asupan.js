@@ -14,9 +14,9 @@ handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
-handler.register = true
 
-module.exports = handler
+
+export default handler
 
 function pickRandom(list) {
   return list[Math.floor(list.length * Math.random())]
